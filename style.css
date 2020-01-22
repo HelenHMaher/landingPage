@@ -10,7 +10,7 @@
 
 body {
   font-family: Muli, sans-serif;
-  background-color: rgb(230, 250, 255)
+  background-color: rgb(230, 250, 255);
 }
 
 .btn {
@@ -43,6 +43,7 @@ body {
   border: solid 1px black;
   background-color: white;
   max-width: 600px;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -100,15 +101,15 @@ a {
 }
 
 @media (max-width: 650px) {
-    nav {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      align-items: center;
-      width: 100%;
-      padding: 0 50px;
-      margin-bottom: 5px;
-    }
+  nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 50px;
+    margin-bottom: 5px;
+  }
 }
 
 nav > ul {
@@ -179,7 +180,6 @@ p {
 #products .button {
   display: flex;
   align-items: center;
-  
 }
 
 section {
