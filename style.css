@@ -43,7 +43,7 @@ body {
   border: solid 1px black;
   background-color: white;
   display: block;
-  max-width: 600px;
+  max-width: 50%;
   margin: auto;
 }
 
