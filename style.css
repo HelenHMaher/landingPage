@@ -42,9 +42,9 @@ body {
 #owners-img {
   border: solid 1px black;
   background-color: white;
+  display: block;
   max-width: 600px;
-  height: auto;
-  margin: 0 auto;
+  margin: auto;
 }
 
 header {
